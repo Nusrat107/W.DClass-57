@@ -21,9 +21,9 @@ Route::get('/thank-you', [FrontedController::class, 'thankyou']);
 
 ///policy///
 
-Route::get('privacy-policy',[FrontedController::class, 'privacypolicy']);
-Route::get('tearms-conditions',[FrontedController::class, 'tearmscondition']);
-Route::get('refund-policy',[FrontedController::class, 'refundpolicy']);
-Route::get('payment-policy',[FrontedController::class, 'paymentpolicy']);
-Route::get('about-us',[FrontedController::class, 'aboutUs']);
-Route::get('contact-us',[FrontedController::class, 'contactUs']);
+Route::get('/privacy-policy',[FrontedController::class, 'privacypolicy']);
+Route::get('/tearms-conditions',[FrontedController::class, 'tearmscondition']);
+Route::get('/refund-policy',[FrontedController::class, 'refundpolicy']);
+Route::get('/payment-policy',[FrontedController::class, 'paymentpolicy']);
+Route::get('/about-us',[FrontedController::class, 'aboutUs']);
+Route::get('/contact-us',[FrontedController::class, 'contactUs']);

@@ -42,13 +42,13 @@ public function thankyou(){
 public function privacypolicy(){
     return view('Frontend.privacy-policy');
 }
-public function tearmsconditions(){
+public function tearmscondition(){
     return view('Frontend.tearms-conditions');
 }
-public function refundspolicy(){
+public function refundpolicy(){
     return view('Frontend.refund-policy');
 }
-public function paymentspolicy(){
+public function paymentpolicy(){
     return view('Frontend.payment-policy');
 }
 public function aboutUs(){
